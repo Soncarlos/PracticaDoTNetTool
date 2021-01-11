@@ -3,19 +3,19 @@ name: Pipeline para GitAction
 on: [push, pull_request]
 
 jobs:
- main:
-  runs-on: ubuntu-latest
+  main:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout
-      uses: actions/checkout@v1
+    steps:
+     - name: Checkout
+       uses: actions/checkout@v1
       
     - name: Configura .NET
-      uses: actions/setup-dotnet@v1
-      with:
+       uses: actions/setup-dotnet@v1
+        with:
           dotnet-version: '5.0.x'
 
       -name: Compilar Aplicacion
-      run: |
-      dotnet build
+       run: |
+       dotnet build
 
