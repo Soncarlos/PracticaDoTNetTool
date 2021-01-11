@@ -15,7 +15,7 @@ jobs:
         with:
           dotnet-version: '5.0.x'
 
-      -name: Compilar Aplicacion
+     - name: Compilar Aplicacion
        run: |
        dotnet build
 
