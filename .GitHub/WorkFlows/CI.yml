@@ -1,6 +1,6 @@
 name: Pipeline para GitAction
 
-on: [push, pull Request]
+on: [push, pull_request]
 
 jobs:
  main:
@@ -18,4 +18,4 @@ jobs:
       -name: Compilar Aplicacion
       run: |
       dotnet build
-      
+
