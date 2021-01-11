@@ -12,4 +12,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <PropertyGroup>
+<CodeAnalysisRuleSet>../GuiaEstilo.ruleset</CodeAnalysisRuleSet>
+</PropertyGroup>
+
 </Project>
