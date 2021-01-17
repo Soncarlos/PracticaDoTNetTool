@@ -1,7 +1,7 @@
 ﻿namespace PracticaDotNet
 {
     using System;
-     class Program
+     public class Program
     {
         public  static void Main(string[] args)
         {
